@@ -9,7 +9,7 @@ padrao = re.search(r'Python', string_teste) # RAW STRING
 
 padrao2 = re.findall(r'Py\w+', string_teste) # busca todas as strings dentro dos parametros passados
 
-padrao3 = re.findall(r'[PYT]+', string_teste) # encontrar dentro de um grupo de caracteres
+padrao3 = re.findall(r'[Pyt]+', string_teste) # encontrar dentro de um grupo de caracteres
 
 if padrao:
     print(f'A palavra \033[33m{padrao.group()}\033[m foi encontrada nos parametros passados')
