@@ -12,5 +12,6 @@ while True:
     print(f'''\n{dicionario['USD']['name']}/Alta: {dicionario['USD']['high']}
 {dicionario['USD']['name']}/Baixa: {dicionario['USD']['low']}
 {dicionario['EUR']['name']}/Alta: {dicionario['EUR']['high']}
-{dicionario['EUR']['name']}/Baixa: {dicionario['EUR']['low']}''')
+{dicionario['EUR']['name']}/Baixa: {dicionario['EUR']['low']}
+{dicionario['BTC']['name']}: {dicionario['BTC']['high']}''')
     sleep(4)
