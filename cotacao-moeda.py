@@ -1,7 +1,8 @@
-import requests
 import json
 from datetime import datetime
 from time import sleep
+
+import requests
 
 url = 'https://economia.awesomeapi.com.br/all/USD,EUR,BTC'
 cotacao = requests.get(url).text
